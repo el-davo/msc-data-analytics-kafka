@@ -1,0 +1,23 @@
+{
+  "name": "msc-data-analytics-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-davo/msc-data-analytics-kafka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el-davo/msc-data-analytics-kafka/issues"
+  },
+  "homepage": "https://github.com/el-davo/msc-data-analytics-kafka#readme",
+  "dependencies": {
+    "kafka-node": "^2.6.0"
+  }
+}
