@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "test": "exit 0",
+    "docker": "docker build -t scalable-microservice/kafka-producer .",
+    "docker:tag": "docker tag scalable-microservice/kafka-producer scalable-microservice/kafka-producer",
+    "docker:push": "docker push mscblog/gateway"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,6 @@
   },
   "homepage": "https://github.com/el-davo/msc-data-analytics-kafka#readme",
   "dependencies": {
-    "kafka-node": "^2.6.0"
+    "node-rdkafka": "*"
   }
 }
