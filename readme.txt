@@ -4,7 +4,7 @@ To create a local kafka cluster run the following command
 
 docker-compose up
 
-This will create a 3 node kafka cluster and 1 zookeeper instance
+This will create a 3 node kafka cluster and 1 zookeeper instance. You can see this running using a tool called "kafka tool" downloaded from - http://www.kafkatool.com/
 
 To create a new topic run the command
 
