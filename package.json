@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/el-davo/msc-data-analytics-kafka#readme",
   "dependencies": {
-    "node-rdkafka": "*"
+    "kafka-node": "^2.6.1"
   }
 }

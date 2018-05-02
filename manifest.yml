@@ -1,8 +1,0 @@
-name: kafka-test-1
-instances: 1
-memory: 128M
-buildpack: nodejs_buildpack
-command: node ./index.js
-env:
-    OPTIMIZE_MEMORY : true
-    NODE_ENV: production
